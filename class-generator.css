@@ -1,0 +1,40 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee
+}
+
+.form-classGenerator {
+    max-width: 600px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto
+}
+
+.form-classGenerator .form-classGenerator-heading, .form-classGenerator input[type=password] {
+    margin-bottom: 10px
+}
+
+.form-classGenerator .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px
+}
+
+.form-classGenerator .form-control:focus {
+    z-index: 2
+}
+
+.form-classGenerator-input {
+    max-width: 300px;
+    text-align: center;
+    margin: auto
+}
+
+.form-classGenerator-message {
+    color: #007fbf
+}
